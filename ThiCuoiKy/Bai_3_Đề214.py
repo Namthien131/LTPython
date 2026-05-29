@@ -1,4 +1,3 @@
-
 import math
 
 la_so_chinh_phuong = lambda n: n > 0 and int(math.sqrt(n)) ** 2 == n
