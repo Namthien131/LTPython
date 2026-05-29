@@ -15,7 +15,6 @@ phan_loai_tam_giac = lambda a, b, c: (
     "Tam giác thường"
 )
 
-# Trường hợp 1: kiểm tra số chính phương
 n = int(input("Nhập số nguyên n: "))
 
 if la_so_chinh_phuong(n):
@@ -23,7 +22,6 @@ if la_so_chinh_phuong(n):
 else:
     print(n, "không phải là số chính phương")
 
-# Trường hợp 2: kiểm tra và phân loại tam giác
 a = int(input("Nhập cạnh a: "))
 b = int(input("Nhập cạnh b: "))
 c = int(input("Nhập cạnh c: "))
